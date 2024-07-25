@@ -77,6 +77,34 @@
     color: #acacac;
     margin-top: -5px;
 }
+
+.workingspace {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.workingspace img {
+    height: 100%;
+    width: 100%;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    margin: 30px 0;
+}
 /* Utility */
 .tombol {
     text-transform: uppercase;
@@ -111,5 +139,8 @@
     }
     .jumbotron .display-5 {
         font-size: 62px;
+    }
+    .workingspace {
+        text-align: left;
     }
 }
